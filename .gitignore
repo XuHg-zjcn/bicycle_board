@@ -1,0 +1,5 @@
+# kicad
+fp-info-cache
+*.bak
+*.lck
+*-backups
