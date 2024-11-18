@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "RF Module, ESP32-C6 WROOM-01U , Wi-Fi and Bluetooth, BLE, external antenna")
-	(tags "ESP32-C6 WROOM-01U espressif")
+	(descr "RF Module, ESP32-C3 WROOM-02 , Wi-Fi and Bluetooth, BLE, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf")
+	(tags "ESP32-C3 WROOM-02 espressif")
 	(property "Reference" "REF**"
 		(at 0 -8.3 180)
 		(layer "F.SilkS")
