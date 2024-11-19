@@ -374,23 +374,20 @@
 				)
 			)
 		)
-		(symbol "Connector:Micro_SD_Card"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Connector:Micro_SD_Card_Det1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -16.51 15.24 0)
+				(at -16.51 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Micro_SD_Card"
-				(at 16.51 15.24 0)
+			(property "Value" "Micro_SD_Card_Det1"
+				(at 16.51 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -399,7 +396,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 29.21 7.62 0)
+				(at 52.07 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -407,8 +404,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -416,7 +413,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Micro SD Card Socket"
+			(property "Description" "Micro SD Card Socket with one card detection pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -443,23 +440,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "Micro_SD_Card_0_1"
-				(rectangle
-					(start -7.62 -9.525)
-					(end -5.08 -10.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "Micro_SD_Card_Det1_0_1"
 				(rectangle
 					(start -7.62 -6.985)
 					(end -5.08 -8.255)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -470,7 +456,7 @@
 					(start -7.62 -4.445)
 					(end -5.08 -5.715)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -481,7 +467,7 @@
 					(start -7.62 -1.905)
 					(end -5.08 -3.175)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -492,7 +478,7 @@
 					(start -7.62 0.635)
 					(end -5.08 -0.635)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -503,7 +489,7 @@
 					(start -7.62 3.175)
 					(end -5.08 1.905)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -514,7 +500,7 @@
 					(start -7.62 5.715)
 					(end -5.08 4.445)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -525,7 +511,18 @@
 					(start -7.62 8.255)
 					(end -5.08 6.985)
 					(stroke
-						(width 0)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 10.795)
+					(end -5.08 9.525)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -534,7 +531,7 @@
 				)
 				(polyline
 					(pts
-						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
+						(xy 16.51 15.24) (xy 16.51 16.51) (xy -19.05 16.51) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -8.89)
 					)
 					(stroke
 						(width 0.254)
@@ -546,8 +543,8 @@
 				)
 				(polyline
 					(pts
-						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
-						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
+						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
+						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
 					)
 					(stroke
 						(width 0.254)
@@ -558,9 +555,9 @@
 					)
 				)
 			)
-			(symbol "Micro_SD_Card_1_1"
+			(symbol "Micro_SD_Card_Det1_1_1"
 				(pin bidirectional line
-					(at -22.86 7.62 0)
+					(at -22.86 10.16 0)
 					(length 3.81)
 					(name "DAT2"
 						(effects
@@ -577,8 +574,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
-					(at -22.86 5.08 0)
+					(at -22.86 7.62 0)
 					(length 3.81)
 					(name "DAT3/CD"
 						(effects
@@ -596,7 +611,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 2.54 0)
+					(at -22.86 5.08 0)
 					(length 3.81)
 					(name "CMD"
 						(effects
@@ -614,7 +629,7 @@
 					)
 				)
 				(pin power_in line
-					(at -22.86 0 0)
+					(at -22.86 2.54 0)
 					(length 3.81)
 					(name "VDD"
 						(effects
@@ -632,7 +647,7 @@
 					)
 				)
 				(pin input line
-					(at -22.86 -2.54 0)
+					(at -22.86 0 0)
 					(length 3.81)
 					(name "CLK"
 						(effects
@@ -650,7 +665,7 @@
 					)
 				)
 				(pin power_in line
-					(at -22.86 -5.08 0)
+					(at -22.86 -2.54 0)
 					(length 3.81)
 					(name "VSS"
 						(effects
@@ -668,7 +683,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -7.62 0)
+					(at -22.86 -5.08 0)
 					(length 3.81)
 					(name "DAT0"
 						(effects
@@ -686,7 +701,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -22.86 -10.16 0)
+					(at -22.86 -7.62 0)
 					(length 3.81)
 					(name "DAT1"
 						(effects
@@ -704,9 +719,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 -15.24 180)
+					(at -22.86 -12.7 0)
 					(length 3.81)
-					(name "SHIELD"
+					(name "DET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7156,7 +7171,7 @@
 	)
 	(no_connect
 		(at 118.11 186.69)
-		(uuid "8b1510e2-d54f-4b8d-98b8-10dd3c73e010")
+		(uuid "e6e5a519-0665-4600-94f9-36ab50fe3bc4")
 	)
 	(no_connect
 		(at 77.47 52.07)
@@ -9744,7 +9759,7 @@
 	)
 	(text "ESP32C6只能作为SDIO从机，无法驱动SD卡"
 		(exclude_from_sim no)
-		(at 140.462 195.58 0)
+		(at 140.462 197.358 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11116,6 +11131,106 @@
 			(project "bicycle_board"
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card_Det1")
+		(at 140.97 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "106f6f5f-50eb-4600-9307-0e089ff26eeb")
+		(property "Reference" "J1"
+			(at 141.605 160.9555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card"
+			(at 141.605 163.3798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:microSD_Slot_mybuy"
+			(at 193.04 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro SD Card Socket with one card detection pin"
+			(at 140.97 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "6a913c91-9ecd-40b6-aefc-d13b8251ba58")
+		)
+		(pin "2"
+			(uuid "6f8c497d-8028-448e-9f00-319c9fe6c6dd")
+		)
+		(pin "4"
+			(uuid "158cd234-8d3f-4a50-adbd-a1b29eaa4518")
+		)
+		(pin "3"
+			(uuid "53ab46fc-e030-4625-b63a-11ef0691dbc0")
+		)
+		(pin "7"
+			(uuid "64a69746-0db1-4657-aa92-2826b32adcb3")
+		)
+		(pin "1"
+			(uuid "58c7485c-679f-4a40-a6e3-6486bc25d129")
+		)
+		(pin "6"
+			(uuid "ddc4245d-e1c2-4d7f-a23f-83429d650f48")
+		)
+		(pin "8"
+			(uuid "964ec6cf-5dd6-4502-8444-e9d00a1c1ba5")
+		)
+		(pin "5"
+			(uuid "e0efa602-7203-4d82-b919-0658354ff219")
+		)
+		(pin "10"
+			(uuid "f6b543ef-85b3-4671-ba9a-08ac322b35ae")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14670,103 +14785,6 @@
 			(project "bicycle_board"
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Micro_SD_Card")
-		(at 140.97 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ba57da4-35e2-436a-8be4-b7ea307b3ce7")
-		(property "Reference" "J5"
-			(at 141.605 158.4155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Micro_SD_Card"
-			(at 141.605 160.8398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
-			(at 170.18 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
-			(at 140.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro SD Card Socket"
-			(at 140.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 140.97 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "f8e0d071-7931-4bbe-a1d2-9e66d2b8be26")
-		)
-		(pin "2"
-			(uuid "3183dc54-79bb-45ea-ae5f-967d467839d2")
-		)
-		(pin "4"
-			(uuid "4014e5b6-4ced-4906-9415-783139dc3676")
-		)
-		(pin "3"
-			(uuid "db96e9b3-2ea8-4508-b70e-a72c23511dae")
-		)
-		(pin "7"
-			(uuid "d915e295-bcf8-4aac-9f53-01e114bee679")
-		)
-		(pin "1"
-			(uuid "057d279d-e69e-450e-89a2-f52f14989c89")
-		)
-		(pin "6"
-			(uuid "f39a7823-1df2-4c5a-8e3e-352d4cb81cf6")
-		)
-		(pin "8"
-			(uuid "199215ec-9ca6-446b-9597-b93b03c5f28d")
-		)
-		(pin "5"
-			(uuid "0a234995-d2f8-46a8-a3df-fa04ce878a82")
-		)
-		(instances
-			(project ""
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
-					(reference "J5")
 					(unit 1)
 				)
 			)
