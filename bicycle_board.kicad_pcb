@@ -28573,7 +28573,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6372b348-bbc8-417a-9f95-ac44827f7bac")
@@ -28586,7 +28586,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "d747c835-1ea4-4c45-aa81-d2dba8a793c7")
 			(effects
@@ -28759,7 +28759,7 @@
 			(uuid "b7bb08bb-b9b9-449d-bcf4-7702b74dce9a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "ac56d451-ebe2-4e9d-aba1-8449bbb99ea7")
 			(effects
@@ -36098,6 +36098,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "b9b6328b-663a-4b42-b968-0776a873161d")
+	)
+	(gr_text "Copyright (C) 2024  Xu Ruijun\nLicense under CERN-OHL-S v2"
+		(at 126.365 133.223 0)
+		(layer "B.SilkS")
+		(uuid "eecc8b33-0bde-4ff1-be1a-8deb769073e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "BAT-"
 		(at 101.1936 121.8624 0)
