@@ -2849,6 +2849,12 @@
 		(uuid "6be085a9-bc04-42ec-8d56-62e9345c65d2")
 	)
 	(junction
+		(at 158.75 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7a42c0-ab11-476a-b405-42dc1010cd48")
+	)
+	(junction
 		(at 198.12 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2955,6 +2961,10 @@
 		(uuid "1d9d7c01-5fb9-4920-aabc-da149eec3dcd")
 	)
 	(no_connect
+		(at 148.59 114.3)
+		(uuid "a9a87b09-68a3-41c9-be9d-43f7b682fba6")
+	)
+	(no_connect
 		(at 146.05 44.45)
 		(uuid "d15b2ba0-9cc4-4f40-b25d-6a1f03bc61cb")
 	)
@@ -3017,16 +3027,6 @@
 			(type default)
 		)
 		(uuid "11ba18f1-fb47-416e-857e-f7e316b7aabf")
-	)
-	(wire
-		(pts
-			(xy 147.32 116.84) (xy 148.59 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14769488-06f9-459b-9247-f6187dc1b4e8")
 	)
 	(wire
 		(pts
@@ -3560,16 +3560,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 114.3) (xy 148.59 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "757d873c-e946-4827-9ed5-2c92a62dfaf6")
-	)
-	(wire
-		(pts
 			(xy 115.57 113.03) (xy 115.57 116.84)
 		)
 		(stroke
@@ -3737,6 +3727,16 @@
 			(type default)
 		)
 		(uuid "8facf3a7-66eb-4985-8278-5732b61a15c5")
+	)
+	(wire
+		(pts
+			(xy 158.75 116.84) (xy 158.75 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a780a9-9359-4a12-9a54-9423f14e08db")
 	)
 	(wire
 		(pts
@@ -3917,6 +3917,16 @@
 			(type default)
 		)
 		(uuid "b240e556-1590-4988-9b18-a79a5fa67e8d")
+	)
+	(wire
+		(pts
+			(xy 148.59 116.84) (xy 158.75 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3e4a540-bfef-4b85-8290-719dbd370640")
 	)
 	(wire
 		(pts
@@ -4328,19 +4338,8 @@
 		)
 		(uuid "fff0ea6e-9006-4383-8cb6-c0067c28cf89")
 	)
-	(label "SPISen_MOSI_3V3"
-		(at 245.11 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "039d38aa-6f8a-4eb7-8388-f925ad7b6d28")
-	)
-	(label "SPISen_MOSI_1V8"
-		(at 220.98 68.58 180)
+	(label "SDA1V8"
+		(at 147.32 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4348,7 +4347,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "1f1efde4-da90-4a5b-a9b1-866581ef7e6b")
+		(uuid "0d6ad14c-366b-4331-b87d-4b872e392423")
+	)
+	(label "SPISen_MOSI_1V8"
+		(at 220.98 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "262b9649-f657-470f-886b-fb85c490c28f")
 	)
 	(label "SPISen_MISO_1V8"
 		(at 172.72 35.56 0)
@@ -4361,28 +4371,6 @@
 		)
 		(uuid "283a0a39-f2f9-436f-b358-87f13b97c62e")
 	)
-	(label "SPISen_CS_BMP_3V3"
-		(at 245.11 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33b609f1-5615-4ef2-9256-9de049c86c71")
-	)
-	(label "SPISen_MOSI_1V8"
-		(at 147.32 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "355f9352-7d88-42b8-abb6-ab70a7a1e69f")
-	)
 	(label "SDA1V8"
 		(at 46.99 80.01 180)
 		(fields_autoplaced yes)
@@ -4393,17 +4381,6 @@
 			(justify right bottom)
 		)
 		(uuid "376eb103-a96d-456d-a757-b8933567f987")
-	)
-	(label "SPISen_CS_QMI_1V8"
-		(at 220.98 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "37d0c962-0a3c-4cec-9e5c-1602a57e4439")
 	)
 	(label "QMI_INT2"
 		(at 172.72 40.64 0)
@@ -4427,16 +4404,16 @@
 		)
 		(uuid "48309d7a-282c-424b-ad9c-fbaaf8014aed")
 	)
-	(label "SPISen_CS_QMI_3V3"
-		(at 245.11 60.96 0)
+	(label "SPISen_CS_TDK_1V8"
+		(at 220.98 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "4d3130f9-283d-4da0-b0f9-529ce8e2c451")
+		(uuid "4cebd601-0fe7-4a33-af10-fd1182da68db")
 	)
 	(label "SPISen_CS_TDK_1V8"
 		(at 80.01 38.1 180)
@@ -4482,8 +4459,8 @@
 		)
 		(uuid "60334fec-ce35-4760-82a7-2e4b397f1698")
 	)
-	(label "SPISen_MISO_1V8"
-		(at 147.32 114.3 180)
+	(label "SPISen_SCLK_1V8"
+		(at 220.98 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4491,7 +4468,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7002b43d-b277-4bd7-a7bf-e63583449587")
+		(uuid "62db22de-0ae7-4619-a177-a9211883e2eb")
+	)
+	(label "SPISen_MISO_1V8"
+		(at 220.98 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f68e433-93f3-4ec2-8942-72e2057ca661")
 	)
 	(label "SPISen_CS_QMI_1V8"
 		(at 172.72 38.1 0)
@@ -4503,17 +4491,6 @@
 			(justify left bottom)
 		)
 		(uuid "74b9daa2-b18d-4e04-8ed8-c5aa6c701655")
-	)
-	(label "SPISen_CS_TDK_1V8"
-		(at 220.98 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7c8cb4d7-8587-49b8-9006-2ec4cfa74fef")
 	)
 	(label "SPISen_MOSI_1V8"
 		(at 172.72 45.72 0)
@@ -4548,6 +4525,17 @@
 		)
 		(uuid "8b2a7c20-5606-4ea5-9468-de349aaeff54")
 	)
+	(label "TDK_INT2_1V8"
+		(at 220.98 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91905f43-fcb8-4a10-bee7-f66d6034920e")
+	)
 	(label "SCL1V8"
 		(at 46.99 77.47 180)
 		(fields_autoplaced yes)
@@ -4559,18 +4547,7 @@
 		)
 		(uuid "9306404c-5a67-439e-8f35-a21bfd7323ea")
 	)
-	(label "TDK_INT2_1V8"
-		(at 220.98 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9d35e92c-0dd2-4ae9-89a9-2cf4ccd4a23e")
-	)
-	(label "SPISen_CS_BMP_1V8"
+	(label "SPISen_CS_QMI_1V8"
 		(at 220.98 66.04 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4579,29 +4556,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a0e278a4-d8ab-4f27-8918-b0dc87f3a712")
-	)
-	(label "TDK_INT2_3V3"
-		(at 245.11 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "acc9372d-a299-4e2b-b277-1e29e2ceb1c7")
-	)
-	(label "SPISen_CS_BMP_1V8"
-		(at 147.32 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b51a5f7d-7938-4653-8451-f4914235d8df")
+		(uuid "af73cf42-4155-425e-b4ab-b3a706ee092c")
 	)
 	(label "SDA1V8"
 		(at 180.34 113.03 180)
@@ -4613,28 +4568,6 @@
 			(justify right bottom)
 		)
 		(uuid "b79377e3-f2ca-49f2-9f71-38a001ed41b4")
-	)
-	(label "SPISen_MISO_3V3"
-		(at 245.11 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb0739d3-86b6-4e2f-b8ad-874e109447ce")
-	)
-	(label "SPISen_SCLK_1V8"
-		(at 220.98 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bde3f942-1ca2-405f-b678-13f6787b33dc")
 	)
 	(label "TDK_INT1"
 		(at 128.27 43.18 0)
@@ -4658,28 +4591,6 @@
 		)
 		(uuid "d22c2eab-874a-4941-b7e8-4a8bdbc4e88a")
 	)
-	(label "SPISen_CS_TDK_3V3"
-		(at 245.11 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d322f9a8-6242-4f61-8458-02694a34cff7")
-	)
-	(label "SPISen_MISO_1V8"
-		(at 220.98 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e089458b-7ce8-4834-81f3-da76d2cf0c18")
-	)
 	(label "SDA"
 		(at 215.9 114.3 180)
 		(fields_autoplaced yes)
@@ -4690,17 +4601,6 @@
 			(justify right bottom)
 		)
 		(uuid "e524bdd1-f214-4eb7-a730-2f2f79972fd2")
-	)
-	(label "SPISen_SCLK_1V8"
-		(at 147.32 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e5c151b8-d8d1-4403-9673-0afa0f056bac")
 	)
 	(label "SPISen_SCLK_1V8"
 		(at 80.01 43.18 180)
@@ -4724,16 +4624,16 @@
 		)
 		(uuid "e868bc8a-1b17-4ec5-a586-99de8b489e85")
 	)
-	(label "SPISen_SCLK_3V3"
-		(at 245.11 71.12 0)
+	(label "SCL1V8"
+		(at 147.32 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ecfa6583-7b9b-4c4b-a271-6650e2ce0fe8")
+		(uuid "ec51e388-d39b-4e46-bf2a-f7d6f94ce9ab")
 	)
 	(label "SCL1V8"
 		(at 180.34 110.49 180)
@@ -4769,6 +4669,78 @@
 			(justify left)
 		)
 		(uuid "3dbefbbe-dfb7-46fb-9cc5-437c9e09b8bf")
+	)
+	(hierarchical_label "MISO_3V3"
+		(shape output)
+		(at 245.11 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56b34ef0-fbf3-42bb-b6e4-c8557754c1ca")
+	)
+	(hierarchical_label "MOSI_3V3"
+		(shape input)
+		(at 245.11 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56fb8a93-17db-40c8-b956-226a1e8e1f28")
+	)
+	(hierarchical_label "CS_TDK_3V3"
+		(shape input)
+		(at 245.11 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5921bd26-ec4f-4060-bbd7-0da362212a10")
+	)
+	(hierarchical_label "TDK_INT2_3V3"
+		(shape bidirectional)
+		(at 245.11 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a528b6f-949a-48b4-9010-2013187358e9")
+	)
+	(hierarchical_label "CS_QMI_3V3"
+		(shape input)
+		(at 245.11 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8689e25f-93d2-40fe-803f-332db16ff150")
+	)
+	(hierarchical_label "SCLK_3V3"
+		(shape input)
+		(at 245.11 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b50ea3e6-c7d1-42e7-bc91-c88df9d9f44d")
 	)
 	(hierarchical_label "EN"
 		(shape input)
