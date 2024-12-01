@@ -2087,26 +2087,27 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
+		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x04_MountingPin"
+				(at 1.27 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2127,7 +2128,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2145,7 +2146,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2154,7 +2155,243 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_1_1"
+			(symbol "Conn_01x04_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x05_MountingPin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x05_MountingPin"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x05_MountingPin_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -2219,6 +2456,26 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -7.112) (xy 1.016 -7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -2311,9 +2568,27 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x06"
+		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -2327,12 +2602,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 1.27 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2353,7 +2629,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2371,7 +2647,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2380,7 +2656,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_1_1"
+			(symbol "Conn_01x06_MountingPin_1_1"
 				(rectangle
 					(start -1.27 -7.493)
 					(end 0 -7.747)
@@ -2456,6 +2732,26 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -9.271 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -2566,9 +2862,27 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x08"
+		(symbol "Connector_Generic_MountingPin:Conn_01x08_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -2582,12 +2896,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x08"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x08_MountingPin"
+				(at 1.27 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -2608,7 +2923,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2626,7 +2941,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2635,7 +2950,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x08_1_1"
+			(symbol "Conn_01x08_MountingPin_1_1"
 				(rectangle
 					(start -1.27 -10.033)
 					(end 0 -10.287)
@@ -2733,6 +3048,26 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -12.192) (xy 1.016 -12.192)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -11.811 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -2872,6 +3207,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7046,12 +7399,6 @@
 		(uuid "75c857bc-9f95-4e43-97dc-ba8a7256f444")
 	)
 	(junction
-		(at 60.96 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dc7701c-4f60-4d54-aa60-cf3eeb41196d")
-	)
-	(junction
 		(at 109.22 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7317,6 +7664,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 110.49) (xy 278.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cc8961-61c3-4dd8-bc47-94e6494ccf36")
+	)
+	(wire
+		(pts
 			(xy 195.58 62.23) (xy 196.85 62.23)
 		)
 		(stroke
@@ -7424,6 +7781,16 @@
 			(type default)
 		)
 		(uuid "1055779a-6f4a-423d-aa02-5b27fb94f43f")
+	)
+	(wire
+		(pts
+			(xy 274.32 110.49) (xy 278.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113fe0b6-11ab-439f-9a80-bf91e7d7e5c0")
 	)
 	(wire
 		(pts
@@ -7547,7 +7914,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 121.92) (xy 266.7 121.92)
+			(xy 260.35 118.11) (xy 269.24 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7657,7 +8024,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 119.38) (xy 266.7 119.38)
+			(xy 267.97 115.57) (xy 269.24 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7877,7 +8244,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 119.38) (xy 63.5 119.38)
+			(xy 38.1 119.38) (xy 63.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8247,13 +8614,23 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 127) (xy 266.7 127)
+			(xy 267.97 123.19) (xy 269.24 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e9410b9-2935-4a22-8d0d-86f299fc9e3d")
+	)
+	(wire
+		(pts
+			(xy 54.61 167.64) (xy 58.42 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f42afcd-0c6b-441a-b485-10b326c17492")
 	)
 	(wire
 		(pts
@@ -8567,7 +8944,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 153.67) (xy 270.51 153.67)
+			(xy 269.24 158.75) (xy 267.97 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8897,7 +9274,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 153.67) (xy 270.51 148.59)
+			(xy 267.97 158.75) (xy 267.97 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8944,16 +9321,6 @@
 			(type default)
 		)
 		(uuid "a082b940-e603-4aee-a4b5-75eedb5b9bf4")
-	)
-	(wire
-		(pts
-			(xy 60.96 93.98) (xy 60.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e37a52-c7c5-403a-97db-9928f0d4b9b1")
 	)
 	(wire
 		(pts
@@ -9164,16 +9531,6 @@
 			(type default)
 		)
 		(uuid "aefc690b-58c2-4ce7-94ed-e49aa7476392")
-	)
-	(wire
-		(pts
-			(xy 38.1 119.38) (xy 60.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0c557a1-1e67-4ce6-bafe-aa0fa3ffcfd6")
 	)
 	(wire
 		(pts
@@ -9437,7 +9794,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 148.59) (xy 271.78 148.59)
+			(xy 267.97 153.67) (xy 269.24 153.67)
 		)
 		(stroke
 			(width 0)
@@ -9757,7 +10114,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 124.46) (xy 266.7 124.46)
+			(xy 267.97 120.65) (xy 269.24 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9981,7 +10338,7 @@
 		(uuid "07057330-83c0-4fc7-9d94-045810890a61")
 	)
 	(label "SCL2"
-		(at 265.43 124.46 180)
+		(at 267.97 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10718,7 +11075,7 @@
 		(uuid "a4b2fe45-d71c-428e-be93-20a5bcdc611b")
 	)
 	(label "SDA2"
-		(at 265.43 127 180)
+		(at 267.97 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12463,101 +12820,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 54.61 180.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24312f4b-853f-49a7-8545-35928e578514")
-		(property "Reference" "J6"
-			(at 54.61 195.9145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 54.61 193.4902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 54.61 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "f804f3df-0162-4acc-9e42-5680fcd96ea0")
-		)
-		(pin "2"
-			(uuid "12be35ee-e2a1-4462-b7c4-867f341a07cc")
-		)
-		(pin "8"
-			(uuid "922c4f77-fc7c-4073-870a-1ffb681de423")
-		)
-		(pin "6"
-			(uuid "baa83db9-200f-4c7b-a9f0-5891ce396906")
-		)
-		(pin "3"
-			(uuid "720c03ed-c65e-4c1d-b7cf-7b43e4e5dbbf")
-		)
-		(pin "5"
-			(uuid "2420db77-764c-4602-a0a1-bcecc32d0186")
-		)
-		(pin "4"
-			(uuid "5243c5f5-6029-49c8-8a9c-76e82f07f59c")
-		)
-		(pin "1"
-			(uuid "cf6ec5e1-724d-4297-87d2-2055afadfb6d")
-		)
-		(instances
-			(project ""
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 110.49 66.04 180)
 		(unit 1)
@@ -13481,6 +13743,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 58.42 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1e8070-05e1-44ab-a478-6b06201acff1")
+		(property "Reference" "#PWR071"
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 171.7731 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0767378e-3115-4fb3-9806-1f3def13f6f3")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_A")
 		(at 161.29 25.4 0)
 		(unit 1)
@@ -13838,6 +14166,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 278.13 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5621b448-94eb-4517-8877-633c867402d6")
+		(property "Reference" "#PWR031"
+			(at 278.13 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 115.8931 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbc40494-af61-4ef1-8291-1cb4b13e22a0")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 111.76 173.99 0)
 		(unit 1)
@@ -14178,7 +14572,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 121.92 0)
+		(at 260.35 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14187,7 +14581,7 @@
 		(fields_autoplaced yes)
 		(uuid "6399fb4c-9a20-4112-980a-2c971327fec1")
 		(property "Reference" "#PWR048"
-			(at 257.81 128.27 0)
+			(at 260.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14196,7 +14590,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 126.0531 0)
+			(at 260.35 122.2431 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14204,7 +14598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 121.92 0)
+			(at 260.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14213,7 +14607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 121.92 0)
+			(at 260.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14222,7 +14616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 121.92 0)
+			(at 260.35 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14310,7 +14704,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 265.43 119.38 0)
+		(at 267.97 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14319,7 +14713,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f3e7923-7af2-489d-80f2-69fbd9251051")
 		(property "Reference" "#PWR051"
-			(at 265.43 123.19 0)
+			(at 267.97 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +14722,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 265.43 115.2469 0)
+			(at 267.97 111.4369 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14336,7 +14730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 119.38 0)
+			(at 267.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14345,7 +14739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 119.38 0)
+			(at 267.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14354,7 +14748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 265.43 119.38 0)
+			(at 267.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14369,6 +14763,103 @@
 			(project "bicycle_board"
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin")
+		(at 54.61 182.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "798ec304-7515-49bb-a2c1-36919c993cbe")
+		(property "Reference" "J5"
+			(at 54.61 167.3055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 54.61 169.7298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+			(at 54.61 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 54.61 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 54.61 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f9a23942-ac58-4e96-bf06-71bb5bfcecd5")
+		)
+		(pin "2"
+			(uuid "652dcca3-91ec-4b37-a37f-a930baa5de3d")
+		)
+		(pin "8"
+			(uuid "d782f27c-a60a-4b6a-a890-c01ed20f3944")
+		)
+		(pin "6"
+			(uuid "757b1f48-e838-4bd4-bb05-d419d949d716")
+		)
+		(pin "3"
+			(uuid "4007f0f0-8bf5-4c75-b80b-6fde7c48f63c")
+		)
+		(pin "5"
+			(uuid "a8024706-eac3-4738-8595-407c8568bcdf")
+		)
+		(pin "4"
+			(uuid "b8570189-f3a3-4e0d-9173-aaadee66514c")
+		)
+		(pin "1"
+			(uuid "c9db77cd-9c29-4781-b45a-704c373d2d62")
+		)
+		(pin "MP"
+			(uuid "c9548622-46d3-4075-be67-fdf8a6462f0e")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -15345,8 +15836,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 276.86 153.67 0)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 274.32 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15354,7 +15845,7 @@
 		(dnp no)
 		(uuid "9300a0d7-42e1-4edb-84d5-00f1145305ad")
 		(property "Reference" "J9"
-			(at 278.892 153.7278 0)
+			(at 276.352 158.8078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15363,7 +15854,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 278.892 156.1521 0)
+			(at 276.352 161.2321 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15371,8 +15862,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SHL_SM06B-SHLS-TF_1x06-1MP_P1.00mm_Horizontal"
-			(at 276.86 153.67 0)
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+			(at 274.32 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15381,7 +15872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 153.67 0)
+			(at 274.32 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15389,16 +15880,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "指纹接口"
-			(at 282.956 158.496 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Type" ""
-			(at 276.86 153.67 0)
+			(at 274.32 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15423,6 +15915,9 @@
 		)
 		(pin "5"
 			(uuid "5216441a-efe4-49bd-af04-e4d3ebee3037")
+		)
+		(pin "MP"
+			(uuid "7d6a3107-fa5d-437b-b663-411e8761edbb")
 		)
 		(instances
 			(project ""
@@ -16959,80 +17454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 271.78 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d2958be6-633f-44cb-86dc-d03761fb0c73")
-		(property "Reference" "J12"
-			(at 273.812 121.9778 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 273.812 124.4021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical"
-			(at 271.78 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "I2C传感器接口"
-			(at 279.654 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ce1756d-cecd-4405-aa0a-f56c0f46d863")
-		)
-		(pin "3"
-			(uuid "b419ab7d-f62a-4cbc-bf28-9b89e5d155d1")
-		)
-		(pin "4"
-			(uuid "9dcbd91f-6fe0-4694-9992-31738c5d7602")
-		)
-		(pin "1"
-			(uuid "212637e6-ad86-4295-8242-52220e08aabd")
-		)
-		(instances
-			(project ""
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 257.81 105.41 0)
 		(unit 1)
@@ -17167,6 +17588,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 274.32 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da1694b5-2eca-461b-b8ff-aa5d8e9c81e9")
+		(property "Reference" "#PWR041"
+			(at 274.32 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 152.7231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d67bea6-1ae0-4383-8a0a-7751dcdce1cb")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 160.02 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17232,7 +17719,152 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
+		(lib_id "power:GND")
+		(at 274.32 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f1a9ef-32f5-497c-8af6-3595f61600b8")
+		(property "Reference" "#PWR065"
+			(at 274.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 175.5831 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 274.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fa4ee21-29cb-4643-b70e-db45c22b78db")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
+		(at 274.32 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e627c44a-8144-4eb1-aa80-bb1f804b5a09")
+		(property "Reference" "J6"
+			(at 276.352 120.5922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 276.352 118.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+			(at 274.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50f76011-6938-4590-81d0-510e62b5492a")
+		)
+		(pin "3"
+			(uuid "7c447a7c-38a0-45f9-a842-68e1d72b19d4")
+		)
+		(pin "4"
+			(uuid "5b08891b-3233-4ab5-89da-ceccdfdc4491")
+		)
+		(pin "1"
+			(uuid "bb9784eb-1cef-4867-a6a4-db0f88f66229")
+		)
+		(pin "MP"
+			(uuid "8624f9c1-b755-49d1-87c6-a0d7b46fcd61")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
 		(at 274.32 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17241,7 +17873,7 @@
 		(dnp no)
 		(uuid "e8fb6481-f170-4f1e-a7ee-ad58b1c9226e")
 		(property "Reference" "J7"
-			(at 274.32 130.4755 0)
+			(at 278.13 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17249,14 +17881,14 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 274.32 132.8998 0)
+			(at 282.448 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal"
 			(at 274.32 138.43 0)
 			(effects
 				(font
@@ -17274,7 +17906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 274.32 138.43 0)
 			(effects
 				(font
@@ -17306,6 +17938,9 @@
 		)
 		(pin "5"
 			(uuid "faccf42a-58f7-41f3-8e51-31a2d984cc05")
+		)
+		(pin "MP"
+			(uuid "b1ae1855-c824-440a-948d-3ed57ca7cc00")
 		)
 		(instances
 			(project "bicycle_board"
