@@ -5,7 +5,7 @@
 	(uuid "715acca0-01e8-46e8-9a23-64b3023b0b3d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:MCP603-xCH"
+		(symbol "Amplifier_Operational:MCP6L01x-xOT"
 			(pin_names
 				(offset 0.127)
 			)
@@ -13,7 +13,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 6.35 0)
+				(at -1.27 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MCP603-xCH"
-				(at 0 3.81 0)
+			(property "Value" "MCP6L01x-xOT"
+				(at -1.27 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,35 +30,35 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single, 1 MHz, 85µA, Rail-to-Rail input and output, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf"
-				(at 1.27 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single 2.7V to 6.0V Single Supply CMOS Op Amps, with Chip Select, SOT-23-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "single opamp"
+			(property "ki_keywords" "opamp vfa rtr r2r"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP603-xCH_0_1"
+			(symbol "MCP6L01x-xOT_0_1"
 				(polyline
 					(pts
 						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
@@ -87,26 +87,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(symbol "MCP603-xCH_1_1"
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin power_in line
@@ -120,6 +100,44 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCP6L01x-xOT_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -156,42 +174,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "~{CS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3672,6 +3654,12 @@
 		(uuid "3066a145-00f1-4106-a723-d6803de2aa7d")
 	)
 	(junction
+		(at 110.49 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30e1e10f-5285-44c2-b538-b0f7e31aad76")
+	)
+	(junction
 		(at 106.68 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3810,28 +3798,22 @@
 		(uuid "a198c489-a9c6-4e51-8e89-ca2950d369ee")
 	)
 	(junction
+		(at 166.37 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a26511a7-90ea-4bea-afe5-58a481e305a3")
+	)
+	(junction
 		(at 127 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a318ad05-e8dd-4fc3-b073-7e3131bf3b46")
 	)
 	(junction
-		(at 151.13 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a46fa132-1b66-4a64-a4db-13631cce495f")
-	)
-	(junction
 		(at 96.52 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a58fac1b-0e4b-48a1-9a6c-90f5607333fe")
-	)
-	(junction
-		(at 166.37 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6a4e0c8-c33e-46ad-a705-7c5be175c9fa")
 	)
 	(junction
 		(at 127 57.15)
@@ -3856,6 +3838,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b46b6edc-38f0-4260-b8d7-260449ff3313")
+	)
+	(junction
+		(at 151.13 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b829970f-137c-4aca-93d9-1610acf13ccc")
 	)
 	(junction
 		(at 60.96 104.14)
@@ -4351,16 +4339,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 78.74) (xy 162.56 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44952efb-1c73-4a6a-8d50-089bec9bf88d")
-	)
-	(wire
-		(pts
 			(xy 66.04 43.18) (xy 66.04 45.72)
 		)
 		(stroke
@@ -4671,16 +4649,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 76.2) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d49d7b-7035-4f41-8db5-e3e813a3b6f9")
-	)
-	(wire
-		(pts
 			(xy 96.52 49.53) (xy 96.52 52.07)
 		)
 		(stroke
@@ -4798,16 +4766,6 @@
 			(type default)
 		)
 		(uuid "8a92f70e-89b1-4728-96bf-0c323304a551")
-	)
-	(wire
-		(pts
-			(xy 105.41 135.89) (xy 110.49 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b00f32d-23f0-4913-a2f4-243494a33b17")
 	)
 	(wire
 		(pts
@@ -5331,6 +5289,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 133.35) (xy 110.49 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe7af6a-6dba-4b6c-8b03-fda2d6e65fa1")
+	)
+	(wire
+		(pts
 			(xy 128.27 133.35) (xy 128.27 132.08)
 		)
 		(stroke
@@ -5613,18 +5581,6 @@
 		)
 		(uuid "c310b0ef-6cdb-4b0b-8684-486fc9a8ba4f")
 	)
-	(hierarchical_label "Isolar_en"
-		(shape input)
-		(at 162.56 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce729ab6-fe6f-4b97-a342-eaa78e948eac")
-	)
 	(hierarchical_label "PWM_solar"
 		(shape input)
 		(at 81.28 52.07 180)
@@ -5636,18 +5592,6 @@
 			(justify right)
 		)
 		(uuid "d26b0cf3-7102-450a-9c70-4aafc171612e")
-	)
-	(hierarchical_label "LDO1V8_EN"
-		(shape input)
-		(at 105.41 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f092ec8a-7a2f-4eab-a3c5-331bbe129cd1")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -9228,6 +9172,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:MCP6L01x-xOT")
+		(at 158.75 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1b9aa0-5f3c-4757-a6ed-4261c0411433")
+		(property "Reference" "U8"
+			(at 171.45 62.2614 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SGM8040-1"
+			(at 171.45 64.8014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sg-micro.com/cn/product/SGM8040-1"
+			(at 158.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single, 550nA, Rail-to-Rail input and output, SOT-23-5"
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "56cc78f7-7e33-4627-97eb-84c37e0639fc")
+		)
+		(pin "2"
+			(uuid "4d07d501-c4a0-40c6-918c-05811f8eaf83")
+		)
+		(pin "5"
+			(uuid "5e1385a1-1ff7-4ae6-b4ad-709dcaa902b5")
+		)
+		(pin "1"
+			(uuid "2a2e4d96-e279-4e8e-992f-5f54384c685d")
+		)
+		(pin "4"
+			(uuid "c494a996-f49c-4ea4-aee2-bd2ed684995d")
+		)
+		(instances
+			(project ""
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 69.85 45.72 0)
 		(unit 1)
@@ -9988,96 +10010,6 @@
 			(project ""
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
 					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:MCP603-xCH")
-		(at 158.75 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eba0a7bb-712f-49e5-a462-39513a920179")
-		(property "Reference" "U10"
-			(at 171.1136 62.435 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCP603-xCH"
-			(at 171.1136 64.8593 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 158.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf"
-			(at 160.02 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single 2.7V to 6.0V Single Supply CMOS Op Amps, with Chip Select, SOT-23-6"
-			(at 158.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 158.75 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4065ae2-25bd-4e50-9c1d-10503c2d2339")
-		)
-		(pin "4"
-			(uuid "ecf64306-5eb7-4fb7-92e6-237fa9f29f82")
-		)
-		(pin "6"
-			(uuid "24b378f0-32aa-4444-b562-32fb35550e49")
-		)
-		(pin "1"
-			(uuid "162382de-f222-4a54-a5bd-5d221767b378")
-		)
-		(pin "5"
-			(uuid "5f98c9b4-47b7-4acb-a684-726ef2caf9b1")
-		)
-		(pin "3"
-			(uuid "a50eeb26-78f3-43ab-8a7f-faaaf87f00d0")
-		)
-		(instances
-			(project "bicycle_board"
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
-					(reference "U10")
 					(unit 1)
 				)
 			)
