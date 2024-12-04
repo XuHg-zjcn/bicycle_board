@@ -4084,169 +4084,6 @@
 				)
 			)
 		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -7641,12 +7478,6 @@
 		(uuid "3ee21e8a-333f-48d0-89db-6749698ad245")
 	)
 	(junction
-		(at 29.21 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ee8850a-e666-4bb0-93cd-05b3a270024a")
-	)
-	(junction
 		(at 93.98 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8382,16 +8213,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 119.38) (xy 74.93 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5f9fc6-a8f1-4ea8-8c5f-4fba0892add4")
-	)
-	(wire
-		(pts
 			(xy 236.22 46.99) (xy 232.41 46.99)
 		)
 		(stroke
@@ -8502,16 +8323,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 124.46) (xy 29.21 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3ea46f-b41c-4bbe-99a9-4b29dc7d26e4")
-	)
-	(wire
-		(pts
 			(xy 250.19 146.05) (xy 250.19 147.32)
 		)
 		(stroke
@@ -8549,16 +8360,6 @@
 			(type default)
 		)
 		(uuid "3f67efd9-cb96-4dfa-927a-bacddc195881")
-	)
-	(wire
-		(pts
-			(xy 38.1 119.38) (xy 63.5 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff7238c-1d19-42df-a248-f1fc40fdddfc")
 	)
 	(wire
 		(pts
@@ -9362,16 +9163,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 124.46) (xy 20.32 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "968acf0e-ebef-4a6e-8a99-3340bf393c5a")
-	)
-	(wire
-		(pts
 			(xy 54.61 59.69) (xy 62.23 59.69)
 		)
 		(stroke
@@ -9419,16 +9210,6 @@
 			(type default)
 		)
 		(uuid "9935f912-6046-49d8-a8e5-ee10e8f5c547")
-	)
-	(wire
-		(pts
-			(xy 74.93 119.38) (xy 74.93 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "996853a9-815a-4b69-b4ec-a95d4c9ab3fc")
 	)
 	(wire
 		(pts
@@ -9959,26 +9740,6 @@
 			(type default)
 		)
 		(uuid "c0e206f6-b0c1-4181-9e5b-5489efb00e61")
-	)
-	(wire
-		(pts
-			(xy 71.12 106.68) (xy 74.93 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1c26ada-20d0-4f90-84c9-0366bf59fc92")
-	)
-	(wire
-		(pts
-			(xy 29.21 124.46) (xy 30.48 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c36ac3d5-3b30-456a-9a0a-68acfd176274")
 	)
 	(wire
 		(pts
@@ -10540,16 +10301,6 @@
 		)
 		(uuid "fda06571-8547-4d7c-87d1-cf83f303392e")
 	)
-	(wire
-		(pts
-			(xy 29.21 129.54) (xy 38.1 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe223176-ac53-4337-a85c-3ba03644f4f4")
-	)
 	(text "ESP32C6只能作为SDIO从机，无法驱动SD卡"
 		(exclude_from_sim no)
 		(at 140.462 197.358 0)
@@ -10657,6 +10408,17 @@
 		)
 		(uuid "0e1627d4-3a9d-4285-a570-9ff7212d4dc2")
 	)
+	(label "HALL_EN"
+		(at 276.86 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11a937fa-5a89-45c1-a46e-97bb4f8182b6")
+	)
 	(label "LCD_RST"
 		(at 62.23 185.42 0)
 		(fields_autoplaced yes)
@@ -10667,17 +10429,6 @@
 			(justify left bottom)
 		)
 		(uuid "15590c2a-447f-42f6-a184-c9bbe8e1f264")
-	)
-	(label "CH1"
-		(at 238.76 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "170c873e-eaac-402c-940d-854debabd90a")
 	)
 	(label "SPI_SCLK"
 		(at 102.87 78.74 180)
@@ -10866,17 +10617,6 @@
 		)
 		(uuid "39119d40-54f6-48aa-8caf-3e0c4ed132b3")
 	)
-	(label "ADC_Isolar"
-		(at 276.86 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3af2aef5-2f84-4f6c-abcf-6b5cd0d87afc")
-	)
 	(label "LCD_BL"
 		(at 127 76.2 0)
 		(fields_autoplaced yes)
@@ -10910,6 +10650,17 @@
 		)
 		(uuid "4497f069-cb5f-4fdd-9c99-ea1bf1c9baf2")
 	)
+	(label "CH2"
+		(at 238.76 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "464ca10d-d475-4bf9-817c-38b7ec4889af")
+	)
 	(label "batsamp_en"
 		(at 104.14 36.83 180)
 		(fields_autoplaced yes)
@@ -10932,8 +10683,8 @@
 		)
 		(uuid "4ec1f9b5-c7f5-42b1-aab2-2b3afac99749")
 	)
-	(label "HALL_EN"
-		(at 276.86 39.37 0)
+	(label "ADC_Vbat"
+		(at 276.86 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10941,7 +10692,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "539a93be-b0ec-43c1-8a51-1308c850729d")
+		(uuid "4f380c07-dbdf-45e5-baf0-757eab85831c")
 	)
 	(label "SCL1"
 		(at 238.76 77.47 180)
@@ -11019,17 +10770,6 @@
 			(justify right bottom)
 		)
 		(uuid "60fd1cb0-d05d-45f4-8b73-d686f7ecc4f1")
-	)
-	(label "ADC_Vsolar"
-		(at 238.76 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "61e24fef-f28b-48e3-a0f0-ec2e8bf103e9")
 	)
 	(label "SPISen_MISO_3V3"
 		(at 240.03 67.31 180)
@@ -11251,17 +10991,6 @@
 		)
 		(uuid "92590707-3c7d-416a-b171-00cbcbcff023")
 	)
-	(label "CH5"
-		(at 19.05 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9893be05-b64f-4148-a9a4-f261a9f7c335")
-	)
 	(label "SCL2"
 		(at 238.76 82.55 180)
 		(fields_autoplaced yes)
@@ -11327,6 +11056,17 @@
 			(justify right bottom)
 		)
 		(uuid "9ff7dc2c-39ac-4cfa-b72c-183833ff6501")
+	)
+	(label "ADC_Isolar"
+		(at 276.86 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a16c38d9-9afe-4d8d-a166-5a1ad6431787")
 	)
 	(label "595_RCLK"
 		(at 146.05 97.79 180)
@@ -11394,17 +11134,6 @@
 		)
 		(uuid "a9393304-ebdb-4d4a-8579-d45a72db8e34")
 	)
-	(label "CH4"
-		(at 276.86 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab1d8ae1-b9c3-430e-9294-b7efec969b01")
-	)
 	(label "LCD_BL"
 		(at 62.23 190.5 0)
 		(fields_autoplaced yes)
@@ -11438,7 +11167,7 @@
 		)
 		(uuid "b5b286d5-1133-452a-aef9-877565d72a29")
 	)
-	(label "CH4"
+	(label "CH2"
 		(at 19.05 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11482,17 +11211,6 @@
 		)
 		(uuid "bef7c516-9d00-4275-8b49-3cc5cdec6723")
 	)
-	(label "CH5"
-		(at 276.86 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c091e322-65b5-44dc-943c-6f46d0fc0cfd")
-	)
 	(label "I2SI_SD"
 		(at 127 119.38 180)
 		(fields_autoplaced yes)
@@ -11514,17 +11232,6 @@
 			(justify right bottom)
 		)
 		(uuid "cadab005-e6d5-4278-a854-d8edc4f577af")
-	)
-	(label "ADC_Vbat"
-		(at 238.76 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cb1d247c-369d-448f-bee2-4ed818595325")
 	)
 	(label "I2SO_WS"
 		(at 147.32 120.65 180)
@@ -11691,6 +11398,17 @@
 		)
 		(uuid "f3a3528e-aa78-4c67-b41e-7091bb3ea621")
 	)
+	(label "CH1"
+		(at 238.76 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3f2f5f0-a53f-41f9-927d-01b7ba32ad53")
+	)
 	(label "ZW101_RX"
 		(at 276.86 34.29 0)
 		(fields_autoplaced yes)
@@ -11734,6 +11452,17 @@
 			(justify right bottom)
 		)
 		(uuid "fa619770-e817-40bf-a389-529feba6890f")
+	)
+	(label "ADC_Vsolar"
+		(at 276.86 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbbfd412-75dc-45bc-9b08-770b979f50aa")
 	)
 	(label "SPISen_MISO_3V3"
 		(at 172.72 54.61 180)
@@ -12831,101 +12560,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 67.31 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b7f063a-c806-4d7e-a186-919b3a6dd7c4")
-		(property "Reference" "D1"
-			(at 67.31 101.2655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 67.31 103.6898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f4952525-4802-4f98-b001-e2ff6ebd94f2")
-		)
-		(pin "2"
-			(uuid "a193779c-eb78-4210-82d3-4b46ebb14c0e")
-		)
-		(instances
-			(project ""
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 236.22 29.21 90)
 		(unit 1)
@@ -13055,85 +12689,6 @@
 			(project ""
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 29.21 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "207507e9-80b0-41af-b60f-bc4418881b70")
-		(property "Reference" "R6"
-			(at 30.7086 125.7878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 30.7086 128.2121 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 29.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 29.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 29.21 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5b1222a-6389-4c77-a70f-c067bbd668e6")
-		)
-		(pin "2"
-			(uuid "a5a3bb05-89b6-467d-9422-304dd80e8684")
-		)
-		(instances
-			(project "bicycle_board"
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16719,101 +16274,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 67.31 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a946c6cc-cf1a-49ef-90f5-2bfe18b36915")
-		(property "Reference" "D2"
-			(at 67.31 113.9655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 67.31 116.3898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 67.31 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36d295ea-44d5-47c2-b324-969e63a037dc")
-		)
-		(pin "2"
-			(uuid "78613e71-5626-479c-87bc-c9ef582305aa")
-		)
-		(instances
-			(project "bicycle_board"
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 267.97 152.4 0)
 		(unit 1)
@@ -17025,82 +16485,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 24.13 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b4cc110b-54a7-4bd3-94ac-aeee939fd2c1")
-		(property "Reference" "R10"
-			(at 24.13 119.2995 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 24.13 121.7238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 24.13 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 24.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 24.13 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4d7000c1-b802-4f53-920e-494f6ff9e739")
-		)
-		(pin "1"
-			(uuid "35c87155-ea77-48b7-8377-fd0319bedad1")
-		)
-		(instances
-			(project "bicycle_board"
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 171.45 17.78 0)
 		(unit 1)
@@ -17282,88 +16666,6 @@
 			(project ""
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
-		(at 35.56 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8048ec9-39d5-4f54-afd3-c0e3610968ba")
-		(property "Reference" "Q5"
-			(at 41.91 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 41.91 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 40.64 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 35.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 35.56 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0307f2ef-0eaa-4f41-abb9-992fcc402497")
-		)
-		(pin "3"
-			(uuid "d2866bf1-8737-4649-9019-ff74b118e326")
-		)
-		(pin "2"
-			(uuid "c1de4ee2-7db0-4d0b-bb1d-da4af687d013")
-		)
-		(instances
-			(project "bicycle_board"
-				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -18155,13 +17457,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 274.32 120.65 0)
+		(property "Description" "外部I2C接口"
+			(at 281.686 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
