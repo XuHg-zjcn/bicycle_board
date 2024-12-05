@@ -11168,7 +11168,7 @@
 		(uuid "ada8848e-d0a7-4b99-a254-7fc9af2b88ee")
 	)
 	(label "I2SO_SD"
-		(at 147.32 110.49 180)
+		(at 147.32 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11245,7 +11245,7 @@
 		(uuid "cadab005-e6d5-4278-a854-d8edc4f577af")
 	)
 	(label "I2SO_WS"
-		(at 147.32 120.65 180)
+		(at 147.32 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

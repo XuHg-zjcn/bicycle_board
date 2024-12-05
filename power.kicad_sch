@@ -3858,6 +3858,12 @@
 		(uuid "b9514c52-ea23-48fc-a242-622e167fd7f8")
 	)
 	(junction
+		(at 158.75 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c09eb07c-35c0-4dc3-a81d-85f6ddbab950")
+	)
+	(junction
 		(at 121.92 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3916,6 +3922,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5025af3-2c3b-4621-a18b-329d0cf3ce5b")
+	)
+	(junction
+		(at 158.75 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7af3936-5e1e-4c95-9e38-d2b537a7c42a")
 	)
 	(junction
 		(at 160.02 119.38)
@@ -4166,6 +4178,16 @@
 			(type default)
 		)
 		(uuid "270b388f-5e48-4741-bc7c-296da8af8a07")
+	)
+	(wire
+		(pts
+			(xy 158.75 143.51) (xy 167.64 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a4ea67-272b-4a1b-9c77-4e3a33e5580b")
 	)
 	(wire
 		(pts
@@ -4466,6 +4488,16 @@
 			(type default)
 		)
 		(uuid "518cc46b-725e-4ce2-a152-108cd5245499")
+	)
+	(wire
+		(pts
+			(xy 158.75 135.89) (xy 167.64 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f2cb9b-5454-4ae4-a28e-9e9f4116cdd0")
 	)
 	(wire
 		(pts
@@ -6111,6 +6143,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 167.64 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25773b8f-2083-403c-a523-415d5da77f5d")
+		(property "Reference" "C49"
+			(at 170.561 138.4878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 170.561 140.9121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 168.6052 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 167.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31d92d49-27e9-4d9c-9ace-1c93e4fc1488")
+		)
+		(pin "1"
+			(uuid "2ae2bd01-cdad-42b3-b0b6-bed4396f9901")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
+					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 132.08 57.15 90)
 		(mirror x)
@@ -6261,6 +6372,72 @@
 			(project "bicycle_board"
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "388e4101-f549-4317-ae4a-c55b14bdadce")
+		(property "Reference" "#PWR080"
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 147.6431 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4868a1a8-573e-444c-b4a2-990a29f0921c")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -7477,6 +7654,72 @@
 			(project "bicycle_board"
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b198b7d-30e3-48ab-9099-0c6a17a20ca8")
+		(property "Reference" "#PWR079"
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 158.75 131.7569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8745566a-1cb3-4603-b973-fd8f09566e28")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -10080,6 +10323,85 @@
 			(project ""
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec799c37-c8ce-4d2e-a8d1-4e8acd966a3d")
+		(property "Reference" "C43"
+			(at 161.671 138.4878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 161.671 140.9121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 159.7152 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fd9c0b5-780f-474b-ba11-b1da723b0770")
+		)
+		(pin "1"
+			(uuid "bc94244b-2b78-4119-a16c-a669cdb27fdd")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2/e18a3537-acf4-45c4-abf9-4f70cea5e57f"
+					(reference "C43")
 					(unit 1)
 				)
 			)

@@ -503,7 +503,7 @@
 		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
-			(vias not_allowed)
+			(vias allowed)
 			(pads not_allowed)
 			(copperpour allowed)
 			(footprints not_allowed)
