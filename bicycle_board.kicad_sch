@@ -10397,6 +10397,17 @@
 		)
 		(uuid "085d8e5c-4e1b-45cc-8edf-4019fecb354a")
 	)
+	(label "595_CLR"
+		(at 146.05 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0cf30d54-ca90-417d-8339-5b6d6ee62c6f")
+	)
 	(label "595_RCLK"
 		(at 102.87 86.36 180)
 		(fields_autoplaced yes)
@@ -10407,6 +10418,17 @@
 			(justify right bottom)
 		)
 		(uuid "0e1627d4-3a9d-4285-a570-9ff7212d4dc2")
+	)
+	(label "I2SI_WS"
+		(at 146.05 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f75bc9a-a74c-4371-ba47-d76b13d3999a")
 	)
 	(label "HALL_EN"
 		(at 276.86 46.99 0)
@@ -10563,7 +10585,7 @@
 		(uuid "2cb59aca-3470-433a-aecf-6197c2a1546a")
 	)
 	(label "I2SI_WS"
-		(at 269.24 133.35 180)
+		(at 269.24 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10694,6 +10716,17 @@
 		)
 		(uuid "4f380c07-dbdf-45e5-baf0-757eab85831c")
 	)
+	(label "I2SI_BCK"
+		(at 147.32 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "509d138b-ff17-4953-a242-ee071526a528")
+	)
 	(label "SCL1"
 		(at 238.76 77.47 180)
 		(fields_autoplaced yes)
@@ -10704,6 +10737,17 @@
 			(justify right bottom)
 		)
 		(uuid "543e8e02-f7f9-46fc-adfb-daa65a48b8a6")
+	)
+	(label "595_RCLK"
+		(at 147.32 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "575a00ce-1e25-4f72-a40b-2479f71fae87")
 	)
 	(label "USB_ESP_D+"
 		(at 147.32 128.27 180)
@@ -10726,6 +10770,17 @@
 			(justify left bottom)
 		)
 		(uuid "580d1fd0-715e-45c8-b291-2b3c7a8de508")
+	)
+	(label "I2SI_SD"
+		(at 146.05 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59aef30b-5ab6-402c-a1c5-869d55294c98")
 	)
 	(label "LCD_DC"
 		(at 127 83.82 0)
@@ -10783,7 +10838,7 @@
 		(uuid "629c5067-3d7b-423d-9e28-6f27ae6c7602")
 	)
 	(label "I2SI_SD"
-		(at 269.24 138.43 180)
+		(at 269.24 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11002,17 +11057,6 @@
 		)
 		(uuid "997e0f06-083c-425a-8050-cd3607385d99")
 	)
-	(label "I2SI_WS"
-		(at 127 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a1c5068-1f10-4d8a-abf0-3dd2a1066d6b")
-	)
 	(label "HALL2"
 		(at 276.86 31.75 0)
 		(fields_autoplaced yes)
@@ -11068,17 +11112,6 @@
 		)
 		(uuid "a16c38d9-9afe-4d8d-a166-5a1ad6431787")
 	)
-	(label "595_RCLK"
-		(at 146.05 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2237cf0-b9ef-41ee-b589-340f62595dae")
-	)
 	(label "SPISen_MOSI_3V3"
 		(at 172.72 57.15 180)
 		(fields_autoplaced yes)
@@ -11111,17 +11144,6 @@
 			(justify right bottom)
 		)
 		(uuid "a8f407ad-e73f-4122-bb94-37716bb30bf9")
-	)
-	(label "I2SI_BCK"
-		(at 127 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a91167da-1b42-4c08-b517-1df6a4cb9e26")
 	)
 	(label "SPISen_SCLK_3V3"
 		(at 172.72 59.69 180)
@@ -11210,17 +11232,6 @@
 			(justify right bottom)
 		)
 		(uuid "bef7c516-9d00-4275-8b49-3cc5cdec6723")
-	)
-	(label "I2SI_SD"
-		(at 127 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c1ca3a47-9699-4bc4-8ea6-48305dd537d5")
 	)
 	(label "SPISen_MOSI_3V3"
 		(at 240.03 69.85 180)
@@ -11474,17 +11485,6 @@
 			(justify right bottom)
 		)
 		(uuid "fcad313c-4fa9-42c1-bfc6-e809d4627bf5")
-	)
-	(label "595_CLR"
-		(at 146.05 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff7358ed-0db2-4fbf-9f7b-ec75a353e32a")
 	)
 	(label "SPI_CS_SD"
 		(at 106.68 171.45 180)
