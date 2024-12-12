@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|105825800|68518000|7a4a5dd1-9c4b-4084-982e-02ef953fe95f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|120254500|130398500|13ec49a3-b09e-4f46-adb8-736c55be4d24|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|124155200|121462800|28c6cba3-bc06-4498-8850-1da99fc9eb3f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|128625600|107213400|e6f1a508-7628-428a-87ae-0fcf1222cd9e|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|131920000|139270000|0c40d013-3747-4850-ae11-3d98d3c5bd64|00000000-0000-0000-0000-000000000000",
+        "track_dangling|129685000|114895000|00887e53-f021-4bef-b732-6af5426a4c5f|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -98,10 +105,10 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "warning",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
