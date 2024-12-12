@@ -5067,7 +5067,8 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -7383,7 +7384,7 @@
 		(descr "SMD Crystal 2012/2 http://txccrystal.com/images/pdf/9ht11.pdf, 2.0x1.2mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y2"
-			(at -2.286 0.0254 90)
+			(at -0.033 -1.4754 90)
 			(layer "F.SilkS")
 			(uuid "c8ae22f2-fb07-4b3f-89a9-332edb2b38bc")
 			(effects
@@ -13374,7 +13375,7 @@
 		(descr "SMD Crystal SERIES SMD2016/4 http://www.q-crystal.com/upload/5/2015552223166229.pdf, 2.0x1.6mm^2 package")
 		(tags "SMD SMT crystal")
 		(property "Reference" "Y1"
-			(at -1.5836 -1.9446 0)
+			(at 0.2496 1.8618 90)
 			(layer "F.SilkS")
 			(uuid "3ce44b71-0a35-4ad8-bea2-fa1c5f52bc98")
 			(effects
@@ -19889,7 +19890,6 @@
 		(property "Reference" "J13"
 			(at 0 -2.33 90)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "cf2c773a-ddef-431c-a0c3-f40be68b1f9e")
 			(effects
 				(font
@@ -19948,15 +19948,16 @@
 				)
 			)
 		)
-		(property "silk" "Back"
-			(at 0 -2.4892 90)
+		(property "silk" "BackSys Infa"
+			(at -2.572 3.5184 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0f707dbf-e4c5-4449-8434-10a27bbdf5a8")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
@@ -26728,7 +26729,7 @@
 		(descr "RF Module, ESP32-C3 WROOM-02 , Wi-Fi and Bluetooth, BLE, external antenna, https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf")
 		(tags "ESP32-C3 WROOM-02 espressif")
 		(property "Reference" "U14"
-			(at -3.7566 8.1424 180)
+			(at 0.0072 -8.5148 180)
 			(layer "F.SilkS")
 			(uuid "ee2892ea-bfdf-4936-b067-0aef19db0142")
 			(effects
@@ -33564,7 +33565,7 @@
 		(descr "microSD slot 14x15mm, one detect pin")
 		(tags "Micro SD")
 		(property "Reference" "J1"
-			(at -6.732 -7.4674 180)
+			(at 5.778 8.9526 180)
 			(layer "B.SilkS")
 			(uuid "fdac954d-005f-40ec-8270-dc50a54c5564")
 			(effects
@@ -39486,14 +39487,66 @@
 		(layer "Edge.Cuts")
 		(uuid "b9b6328b-663a-4b42-b968-0776a873161d")
 	)
-	(gr_text "Copyright (C) 2024  Xu Ruijun\nLicense under CERN-OHL-S v2"
-		(at 121.92 95.04 90)
+	(gr_text "LCD"
+		(at 141.08 58.1 90)
+		(layer "B.SilkS")
+		(uuid "189c388c-75bc-4f9e-86da-914c79170eed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "microSD"
+		(at 120.26 59.27 0)
+		(layer "B.SilkS")
+		(uuid "ac058b36-0777-4982-a3a2-2bc633f1aca2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "HALL"
+		(at 139.49 102.58 90)
+		(layer "B.SilkS")
+		(uuid "dbc878b7-d37e-4769-9489-a07d4f611305")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Bicycle Front Board\nCopyright (C) 2024  Xu Ruijun\nLicense under CERN-OHL-S v2\n\ngithub.com/XuHg-zjcn/bicycle_board\nyyyy.mm.dd vx.x-gxxxxxxx"
+		(at 127.17 92.06 90)
 		(layer "B.SilkS")
 		(uuid "eecc8b33-0bde-4ff1-be1a-8deb769073e0")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "MIC"
+		(at 140.5 81.2 90)
+		(layer "B.SilkS")
+		(uuid "efb1bbed-0bc6-4620-a399-392967a5f7f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -39536,6 +39589,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Fing"
+		(at 139.05 84.01 90)
+		(layer "F.SilkS")
+		(uuid "3c540224-da55-42a9-9aea-dc0cf7c518a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BAT+"
 		(at 101.346 114.1916 0)
 		(layer "F.SilkS")
@@ -39549,14 +39615,15 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "MIC"
-		(at 125.73 58.4708 0)
+	(gr_text "I2C"
+		(at 139.43 104.87 90)
 		(layer "F.SilkS")
-		(uuid "efb1bbed-0bc6-4620-a399-392967a5f7f5")
+		(uuid "d27cf360-2ed6-4999-b30d-2e95b1c3be49")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
