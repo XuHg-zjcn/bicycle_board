@@ -9661,6 +9661,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 110.49) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1efbf9-66ad-498d-a8e4-4571f51d98ae")
+	)
+	(wire
+		(pts
 			(xy 231.14 54.61) (xy 232.41 54.61)
 		)
 		(stroke
@@ -10241,6 +10251,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 34.29) (xy 232.41 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb53656-276a-4557-b77e-72bb99786e1d")
+	)
+	(wire
+		(pts
 			(xy 106.68 179.07) (xy 111.76 179.07)
 		)
 		(stroke
@@ -10531,6 +10551,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 120.65) (xy 148.59 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd04cd4-eb88-4a72-8326-d1ffd8ef743d")
+	)
+	(wire
+		(pts
 			(xy 203.2 97.79) (xy 209.55 97.79)
 		)
 		(stroke
@@ -10608,16 +10638,6 @@
 			(type default)
 		)
 		(uuid "98b60c77-1c4c-465f-ac90-670a93eff81e")
-	)
-	(wire
-		(pts
-			(xy 147.32 120.65) (xy 148.59 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "990cb4ab-5507-4479-b8e3-4522ad769a8d")
 	)
 	(wire
 		(pts
@@ -11331,6 +11351,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 119.38) (xy 133.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c615ee61-2115-4cad-b97d-19475c46e875")
+	)
+	(wire
+		(pts
 			(xy 226.06 118.11) (xy 232.41 118.11)
 		)
 		(stroke
@@ -11658,6 +11688,16 @@
 			(type default)
 		)
 		(uuid "e1547a7e-0008-46c5-909f-b0ec8de09325")
+	)
+	(wire
+		(pts
+			(xy 240.03 34.29) (xy 241.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f3353f-f065-4d6f-9883-d7522f841120")
 	)
 	(wire
 		(pts
@@ -11999,6 +12039,16 @@
 		)
 		(uuid "6670f5c0-4152-4217-80a3-d4d06bf3488b")
 	)
+	(text "GPIO2,8,9与启动模式有关"
+		(exclude_from_sim no)
+		(at 148.59 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a6b44bb-1f39-4081-9356-5d9f95cf5c1f")
+	)
 	(text "1.8V信号输入\n需接到FT IO"
 		(exclude_from_sim no)
 		(at 212.852 61.976 0)
@@ -12018,6 +12068,16 @@
 			)
 		)
 		(uuid "c5e9c975-2ae3-471d-b5b8-cc7fed40848c")
+	)
+	(text "TF卡槽处已上拉"
+		(exclude_from_sim no)
+		(at 162.56 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c82582d2-09b2-4f69-b979-ca1f4efd2835")
 	)
 	(label "USB_CH32FS_D+"
 		(at 275.59 59.69 0)
@@ -12349,6 +12409,17 @@
 		)
 		(uuid "3d2e94c8-679c-43fd-805e-4ef720198b37")
 	)
+	(label "I2SO_SD"
+		(at 147.32 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4442d703-bb5d-41f8-8e7b-a48e5847ba86")
+	)
 	(label "CH1"
 		(at 19.05 97.79 180)
 		(fields_autoplaced yes)
@@ -12601,6 +12672,17 @@
 			(justify right bottom)
 		)
 		(uuid "73e5bdd2-6c90-4342-b144-9f894acd70dc")
+	)
+	(label "I2SO_BCK"
+		(at 147.32 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7617efe5-75d0-4ece-8a40-92a5d0d87f9b")
 	)
 	(label "USB_CH32FS_D+"
 		(at 181.61 27.94 0)
@@ -12855,17 +12937,6 @@
 		)
 		(uuid "ada8848e-d0a7-4b99-a254-7fc9af2b88ee")
 	)
-	(label "I2SO_SD"
-		(at 147.32 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b20d624b-978c-41fa-ad74-7b2017654878")
-	)
 	(label "I2SO_WS"
 		(at 62.23 129.54 180)
 		(fields_autoplaced yes)
@@ -12899,6 +12970,17 @@
 		)
 		(uuid "bba599d7-00e4-4f8c-bf41-0aab30eb041c")
 	)
+	(label "I2SO_WS"
+		(at 147.32 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc9a9f0e-600a-4682-994b-dfb3a7b78347")
+	)
 	(label "SPI_CS_SD"
 		(at 127 73.66 0)
 		(fields_autoplaced yes)
@@ -12931,17 +13013,6 @@
 			(justify right bottom)
 		)
 		(uuid "cadab005-e6d5-4278-a854-d8edc4f577af")
-	)
-	(label "I2SO_WS"
-		(at 147.32 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cb86d80e-873b-451f-a5df-8b27056cfcc0")
 	)
 	(label "ZW101_TX"
 		(at 276.86 36.83 0)
@@ -13118,17 +13189,6 @@
 			(justify left bottom)
 		)
 		(uuid "f5992f61-19fd-4cc7-a65b-5444c2ceabeb")
-	)
-	(label "I2SO_BCK"
-		(at 147.32 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6516154-20d6-49fd-8f8c-13cfff551e58")
 	)
 	(label "HALL_EN"
 		(at 194.31 102.87 180)
@@ -14313,6 +14373,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 236.22 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b48c9a3-eb1f-4919-bc23-148f50359d70")
+		(property "Reference" "R7"
+			(at 236.22 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 236.22 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 236.22 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 236.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ee2232f-6bd6-452f-ba38-e7dfadc66a18")
+		)
+		(pin "2"
+			(uuid "a50ceae6-5ec2-44a8-b2a3-3f10995a12ab")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 133.35 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b6dc2e9-945b-40d7-ba19-23e8d1bacba0")
+		(property "Reference" "#PWR085"
+			(at 133.35 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 133.35 106.3569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 133.35 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "582367ef-9759-4fd9-8bb6-c222a1f4cc16")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD5Zxx")
 		(at 267.97 123.19 270)
 		(unit 1)
@@ -14445,6 +14639,76 @@
 			(project ""
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e22e1c7-aae6-47ed-b786-3d1f2e4eef1b")
+		(property "Reference" "R6"
+			(at 135.89 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.89 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 131.572 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93308a8c-4969-4702-917a-80838e8b3084")
+		)
+		(pin "2"
+			(uuid "f728c299-e106-4347-8695-702da438441b")
+		)
+		(instances
+			(project ""
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -19201,6 +19465,72 @@
 			(project "bicycle_board"
 				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 219.71 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a82afc71-03e5-499a-ab7f-42c982473d96")
+		(property "Reference" "#PWR086"
+			(at 219.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbaa2ab5-1678-45fc-82e5-472284247ccb")
+		)
+		(instances
+			(project "bicycle_board"
+				(path "/a369956d-4c9f-46c3-810f-e3e9616ab1a2"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
