@@ -5080,7 +5080,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "2.2uF"
 			(at 73.4441 81.2157 0)
 			(effects
 				(font
@@ -5818,7 +5818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IIM-42652"
+		(property "Value" "ICM-42688-P"
 			(at 106.3341 57.4844 0)
 			(effects
 				(font
@@ -5836,7 +5836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2021/01/ds-000440_iim-42652-datasheet.pdf"
+		(property "Datasheet" "https://product.tdk.com.cn/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000347-icm-42688-p-v1.6.pdf"
 			(at 104.14 48.26 0)
 			(effects
 				(font
@@ -6083,7 +6083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 109.728 97.7321 0)
 			(effects
 				(font
@@ -7777,7 +7777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMC5633NJL"
+		(property "Value" "QMC6308"
 			(at 66.802 81.2221 0)
 			(effects
 				(font
@@ -7796,7 +7796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.memsic.com/uploadfiles/2020/08/20200827165106864.pdf"
+		(property "Datasheet" "https://www.qstcorp.com/upload/pdf/202202/13-52-15%20QMC6308%20Datasheet%20Rev.%20F(1).pdf"
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -7805,7 +7805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3-axis AMR Magnetometer, 30 G, I2C & I3C  Interface, 2mG RMS, WLP-4"
+		(property "Description" "3-axis AMR Magnetometer, 30 G, I2C Interface, 2mG RMS, WLP-4"
 			(at 58.42 80.01 0)
 			(effects
 				(font

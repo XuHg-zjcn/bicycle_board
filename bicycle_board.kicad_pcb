@@ -1528,7 +1528,7 @@
 				)
 			)
 		)
-		(property "Value" "MMC5633NJL"
+		(property "Value" "QMC6308"
 			(at 0 2.25 0)
 			(layer "F.Fab")
 			(uuid "8e3c275d-312d-4daf-8294-c7286911ccf2")
@@ -1552,7 +1552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.memsic.com/uploadfiles/2020/08/20200827165106864.pdf"
+		(property "Datasheet" "https://www.qstcorp.com/upload/pdf/202202/13-52-15%20QMC6308%20Datasheet%20Rev.%20F(1).pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1565,7 +1565,7 @@
 				)
 			)
 		)
-		(property "Description" "3-axis AMR Magnetometer, 30 G, I2C & I3C  Interface, 2mG RMS, WLP-4"
+		(property "Description" "3-axis AMR Magnetometer, 30 G, I2C Interface, 2mG RMS, WLP-4"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8332,7 +8332,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "2.2uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "7d99eaf5-61dc-4bd8-8262-76f4f8bc9fda")
@@ -13191,7 +13191,7 @@
 				)
 			)
 		)
-		(property "Value" "IIM-42652"
+		(property "Value" "ICM-42688-P"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "b11ec451-9f7e-4bef-a947-a17376e6e5f8")
@@ -13215,7 +13215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2021/01/ds-000440_iim-42652-datasheet.pdf"
+		(property "Datasheet" "https://product.tdk.com.cn/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000347-icm-42688-p-v1.6.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20913,7 +20913,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "330"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f1ce1998-556d-4d2b-b563-e404b8f9cd04")
