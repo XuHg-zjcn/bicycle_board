@@ -60,9 +60,11 @@
       ],
       "drc_exclusions": [
         "lib_footprint_mismatch|105825800|68518000|7a4a5dd1-9c4b-4084-982e-02ef953fe95f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|117770000|80720000|370e8611-2a05-44ab-94b6-ae1501d6e229|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|120254500|130398500|13ec49a3-b09e-4f46-adb8-736c55be4d24|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|124155200|121462800|28c6cba3-bc06-4498-8850-1da99fc9eb3f|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|128625600|107213400|e6f1a508-7628-428a-87ae-0fcf1222cd9e|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|129470300|68264800|f8fa8e68-3611-4060-851a-12b573285bfd|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|131920000|139270000|0c40d013-3747-4850-ae11-3d98d3c5bd64|00000000-0000-0000-0000-000000000000",
         "track_dangling|129685000|114895000|00887e53-f021-4bef-b732-6af5426a4c5f|00000000-0000-0000-0000-000000000000"
       ],
@@ -134,7 +136,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -228,7 +230,7 @@
         },
         {
           "diameter": 0.5,
-          "drill": 0.25
+          "drill": 0.3
         },
         {
           "diameter": 0.6,

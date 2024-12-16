@@ -8209,9 +8209,9 @@
 			(uuid "22fd4fff-c838-4537-b434-9b7da1565dad")
 		)
 		(pad "9" thru_hole circle
-			(at -0.95 -1.35)
-			(size 0.5 0.5)
-			(drill 0.2)
+			(at -0.85 -1.25)
+			(size 0.6 0.6)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -8221,9 +8221,9 @@
 			(uuid "e1c4a9eb-5a8e-4bc1-8d3c-4bc4b52fbdcc")
 		)
 		(pad "9" thru_hole circle
-			(at -0.95 0)
-			(size 0.5 0.5)
-			(drill 0.2)
+			(at -0.85 0)
+			(size 0.6 0.6)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -8233,9 +8233,9 @@
 			(uuid "cf404fd5-69f7-4e34-bd32-ab03371c5876")
 		)
 		(pad "9" thru_hole circle
-			(at -0.95 1.35)
-			(size 0.5 0.5)
-			(drill 0.2)
+			(at -0.85 1.25)
+			(size 0.6 0.6)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -8267,9 +8267,9 @@
 			(uuid "828a9f8a-c4bc-422e-b477-af4ca1c8f0fc")
 		)
 		(pad "9" thru_hole circle
-			(at 0.95 -1.35)
-			(size 0.5 0.5)
-			(drill 0.2)
+			(at 0.85 -1.25)
+			(size 0.6 0.6)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -8279,9 +8279,9 @@
 			(uuid "ceed162e-2060-4978-a7f6-24a241c42c22")
 		)
 		(pad "9" thru_hole circle
-			(at 0.95 0)
-			(size 0.5 0.5)
-			(drill 0.2)
+			(at 0.85 0)
+			(size 0.6 0.6)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -8291,9 +8291,9 @@
 			(uuid "beb57915-df93-4929-ae58-0b440d285a32")
 		)
 		(pad "9" thru_hole circle
-			(at 0.95 1.35)
-			(size 0.5 0.5)
-			(drill 0.2)
+			(at 0.85 1.25)
+			(size 0.6 0.6)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu")
 			(remove_unused_layers no)
@@ -27645,7 +27645,7 @@
 		(pad "19" thru_hole circle
 			(at -0.14 -0.35)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27657,7 +27657,7 @@
 		(pad "19" thru_hole circle
 			(at -0.14 0.75)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27669,7 +27669,7 @@
 		(pad "19" thru_hole circle
 			(at 0.41 -0.9)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27681,7 +27681,7 @@
 		(pad "19" thru_hole circle
 			(at 0.41 0.2)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27693,7 +27693,7 @@
 		(pad "19" thru_hole circle
 			(at 0.41 1.3)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27705,7 +27705,7 @@
 		(pad "19" thru_hole circle
 			(at 0.96 -0.35)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27726,7 +27726,7 @@
 		(pad "19" thru_hole circle
 			(at 0.96 0.75)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27738,7 +27738,7 @@
 		(pad "19" thru_hole circle
 			(at 1.51 -0.9)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27750,7 +27750,7 @@
 		(pad "19" thru_hole circle
 			(at 1.51 0.2)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27762,7 +27762,7 @@
 		(pad "19" thru_hole circle
 			(at 1.51 1.3)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27774,7 +27774,7 @@
 		(pad "19" thru_hole circle
 			(at 2.06 -0.35)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -27786,7 +27786,7 @@
 		(pad "19" thru_hole circle
 			(at 2.06 0.75)
 			(size 0.6 0.6)
-			(drill 0.2)
+			(drill 0.3)
 			(property pad_prop_heatsink)
 			(layers "*.Cu" "F.Mask")
 			(remove_unused_layers no)
@@ -41681,8 +41681,8 @@
 	)
 	(via
 		(at 132.56 89.98)
-		(size 0.5)
-		(drill 0.25)
+		(size 0.6)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 2)
@@ -41722,16 +41722,16 @@
 	)
 	(via
 		(at 123.215 135.115)
-		(size 0.5)
-		(drill 0.25)
+		(size 0.6)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "73254d84-f747-46ae-afc5-fb06fbdf0322")
 	)
 	(via
 		(at 138.25 92.84)
-		(size 0.5)
-		(drill 0.25)
+		(size 0.6)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "80272437-a997-4c67-bdc3-4eba7a76d98b")
@@ -41746,8 +41746,8 @@
 	)
 	(via
 		(at 138.25 85.24)
-		(size 0.5)
-		(drill 0.25)
+		(size 0.6)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "8dbda482-5ca6-450a-baa7-9786b518c488")
@@ -42756,8 +42756,8 @@
 	)
 	(via
 		(at 135.7425 71.87)
-		(size 0.5)
-		(drill 0.25)
+		(size 0.6)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 11)
 		(uuid "006f5ad1-ede2-430c-873c-ee86dd6c8521")
@@ -44765,7 +44765,7 @@
 	(via
 		(at 130.375599 104.343562)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
 		(uuid "5c4184d5-7f04-4234-8206-f5fa4a081e26")
@@ -45212,8 +45212,8 @@
 	)
 	(via
 		(at 120.51 136.3)
-		(size 0.5)
-		(drill 0.25)
+		(size 0.6)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
 		(uuid "705e00c5-4c4d-455f-aa86-78058524a8d3")
@@ -47101,7 +47101,7 @@
 	(via
 		(at 130.875601 103.928229)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 48)
 		(uuid "1de4b704-3bd2-4e11-bf81-7dcddab09cee")
@@ -47341,15 +47341,15 @@
 	(via
 		(at 128.8796 99.1108)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 51)
 		(uuid "12209935-5432-4a57-9cc1-cdc2f8640288")
 	)
 	(via
 		(at 107.95 88.73)
-		(size 0.5)
-		(drill 0.25)
+		(size 0.6)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 51)
 		(uuid "596f6cec-44b9-4915-905c-654ff8bbce73")
@@ -47357,7 +47357,7 @@
 	(via
 		(at 128.884154 101.7256)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 51)
 		(uuid "c8fe9b1b-0db0-433a-8ee5-f4de0d407aa9")
@@ -47477,7 +47477,7 @@
 	(via
 		(at 128.165859 99.22)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 52)
 		(uuid "0e9db2cd-42bf-4df1-94c2-8d8e6bf96d0e")
@@ -47485,7 +47485,7 @@
 	(via
 		(at 128.375599 102.173571)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 52)
 		(uuid "5b158f68-578a-4877-a778-a3bfc5a54ab6")
@@ -47901,7 +47901,7 @@
 	(via
 		(at 129.875599 103.928229)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 58)
 		(uuid "92b2a046-f532-4445-9eeb-cfd54836599c")
@@ -48645,7 +48645,7 @@
 	(via
 		(at 122.472183 106.138452)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 76)
 		(uuid "29b34758-0076-4bf8-a82c-3c8ec4099745")
@@ -48781,7 +48781,7 @@
 	(via
 		(at 135.915 100.05)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 78)
 		(uuid "0fa6a701-ea35-478a-9fdb-e45e0e0af0ca")
@@ -48925,7 +48925,7 @@
 	(via
 		(at 135.91 99.03)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 80)
 		(uuid "d14232c5-f108-46e3-864c-4f566f3539ca")
@@ -49237,7 +49237,7 @@
 	(via
 		(at 115.071575 121.273347)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 87)
 		(uuid "0d2f17a6-840f-4b7e-aee3-3625a9d9d7ca")
@@ -49253,7 +49253,7 @@
 	(via
 		(at 123.361866 107.028134)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 87)
 		(uuid "647f8390-522e-4cea-bbd7-1fcafb678b9f")
@@ -49653,7 +49653,7 @@
 	(via
 		(at 115.891624 121.161624)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 94)
 		(uuid "5e1776ba-ad77-4c76-a992-94e3e00c2a27")
@@ -49661,7 +49661,7 @@
 	(via
 		(at 125.599103 106.846445)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 94)
 		(uuid "8d7ab8f2-97f8-4698-a321-19a5af14e56d")
@@ -50341,7 +50341,7 @@
 	(via
 		(at 124.0256 101.546232)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 109)
 		(uuid "608fac12-0b26-4cf2-a136-d50989daf9ad")
@@ -50549,7 +50549,7 @@
 	(via
 		(at 131.7498 106.9634)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 124)
 		(uuid "b7fde16d-cb88-493e-b322-17f1020985cc")
@@ -50621,7 +50621,7 @@
 	(via
 		(at 129.427934 102.092464)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 127)
 		(uuid "47f6e130-8f76-4ecc-b776-94bb15a138a5")
@@ -50709,7 +50709,7 @@
 	(via
 		(at 131.95 102.36)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 128)
 		(uuid "6192b84c-6579-4208-9be6-e6dfc29a940c")
@@ -50717,7 +50717,7 @@
 	(via
 		(at 131.04 98.16)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 128)
 		(uuid "c2d57209-e5b7-4f22-8a47-979d2a09ebab")
@@ -50805,7 +50805,7 @@
 	(via
 		(at 132.7881 104.1781)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 129)
 		(uuid "4569d5a4-bd96-416c-93a9-928d6ab1c917")
@@ -50813,7 +50813,7 @@
 	(via
 		(at 131.6482 85.9282)
 		(size 0.5)
-		(drill 0.25)
+		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 129)
 		(uuid "d43aeb5b-865a-44e7-b896-70886dc559ab")
