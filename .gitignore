@@ -3,3 +3,9 @@ fp-info-cache
 *.bak
 *.lck
 *-backups
+
+# vim
+*.swp
+
+# python
+__pycache__/
