@@ -8751,6 +8751,22 @@
 		(uuid "018b62fd-20f9-4bde-80a5-15d5e2309ef7")
 	)
 	(no_connect
+		(at 238.76 95.25)
+		(uuid "1a60b4d8-4b68-4ce5-967f-2df27aa3698f")
+	)
+	(no_connect
+		(at 227.33 142.24)
+		(uuid "1c1b6a7f-d35d-4be6-8643-422b76dc2b15")
+	)
+	(no_connect
+		(at 118.11 191.77)
+		(uuid "2bc6a9e8-4197-4a61-a1c6-e8a6c557c8b6")
+	)
+	(no_connect
+		(at 127 86.36)
+		(uuid "2d9a02fd-b1d7-4322-be81-2690bf6c4209")
+	)
+	(no_connect
 		(at 67.31 26.67)
 		(uuid "3612fbd7-8659-426d-97b8-95ac3512b49e")
 	)
@@ -8759,8 +8775,28 @@
 		(uuid "4e2d2063-d677-4961-8c6f-64e56b6ce31c")
 	)
 	(no_connect
+		(at 241.3 46.99)
+		(uuid "4fda6adf-2299-4070-ac81-4bd82948915e")
+	)
+	(no_connect
+		(at 241.3 62.23)
+		(uuid "5a12478f-cd60-4ec7-95c1-7457a7acc0bc")
+	)
+	(no_connect
 		(at 67.31 29.21)
 		(uuid "617eb46b-4775-49b4-9155-31191c92d38d")
+	)
+	(no_connect
+		(at 125.73 96.52)
+		(uuid "7ea2a80c-c944-4114-96e1-dedfdc383e72")
+	)
+	(no_connect
+		(at 241.3 92.71)
+		(uuid "ad961af7-4b25-405a-b4f2-83500c19120f")
+	)
+	(no_connect
+		(at 127 88.9)
+		(uuid "db0a7ef9-775c-4432-a7d2-d17ea8329de1")
 	)
 	(no_connect
 		(at 118.11 186.69)
@@ -10992,16 +11028,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 24.13) (xy 106.68 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7dd692-2360-413f-927a-90a802f32898")
-	)
-	(wire
-		(pts
 			(xy 222.25 115.57) (xy 234.95 115.57)
 		)
 		(stroke
@@ -12222,16 +12248,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 92.71) (xy 128.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc2e4e2d-2a4d-4bff-b159-744e3095de2d")
-	)
-	(wire
-		(pts
 			(xy 267.97 19.05) (xy 271.78 19.05)
 		)
 		(stroke
@@ -12487,17 +12503,6 @@
 		)
 		(uuid "2270ec73-f053-4ad5-a8ed-48beec4a5175")
 	)
-	(label "LED_WIFIBT"
-		(at 129.54 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24bd9597-d073-4c7d-8495-ac0938cf6591")
-	)
 	(label "TXD"
 		(at 226.06 120.65 180)
 		(fields_autoplaced yes)
@@ -12519,17 +12524,6 @@
 			(justify left bottom)
 		)
 		(uuid "280829fc-9949-45c3-9387-a657a412b971")
-	)
-	(label "SenEN"
-		(at 104.14 24.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28fa852f-fb72-4971-97e2-0b3abc186c64")
 	)
 	(label "USB_CH32FS_D-"
 		(at 181.61 25.4 0)
@@ -12618,17 +12612,6 @@
 			(justify left bottom)
 		)
 		(uuid "3cc2a12c-fe9a-4f6f-a474-075eab467e77")
-	)
-	(label "LED_WIFIBT"
-		(at 242.57 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d2e94c8-679c-43fd-805e-4ef720198b37")
 	)
 	(label "I2SO_SD"
 		(at 147.32 118.11 180)
@@ -12926,17 +12909,6 @@
 			(justify left bottom)
 		)
 		(uuid "7edbc1cd-8d2c-44ce-84f4-135b825d012b")
-	)
-	(label "SPI_CS_STM32"
-		(at 127 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f16dd74-13b3-4e71-b130-1bc6a4a9c41c")
 	)
 	(label "TXD"
 		(at 180.34 95.25 0)
@@ -22296,16 +22268,6 @@
 				(justify left)
 			)
 			(uuid "3603c592-1ef1-4252-8344-85b5c2b4ca34")
-		)
-		(pin "LDO1V8_EN" input
-			(at 106.68 24.13 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1041e100-d89a-42d6-a17a-ecec7599bd5e")
 		)
 		(pin "PWM_solarL" input
 			(at 106.68 33.02 180)
