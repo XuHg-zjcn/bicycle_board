@@ -1017,6 +1017,24 @@
 					)
 				)
 			)
+			(pin free line
+				(at 2.54 -10.16 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 	)
 	(symbol "PS7516"
