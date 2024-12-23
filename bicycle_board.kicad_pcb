@@ -5061,7 +5061,7 @@
 			)
 		)
 		(property "Silk" "SPK"
-			(at 0.0762 5.1594 90)
+			(at 0.3518 5.0858 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f477ff4c-6b49-42e4-b83e-0af4bdaea911")
@@ -41655,6 +41655,59 @@
 		(layer "Edge.Cuts")
 		(uuid "379556ff-831a-47dc-a8bb-474cb9583350")
 	)
+	(gr_line
+		(start 100.584 139.5)
+		(end 100.584 59.0992)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5dbbdb9b-b0be-45cc-a898-dcd566937a4b")
+	)
+	(gr_line
+		(start 102.584 57.0992)
+		(end 139.5 57.0992)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5f2ceae2-b6da-4976-89dd-73eaaa2597d1")
+	)
+	(gr_arc
+		(start 139.5 57.0992)
+		(mid 140.914214 57.684986)
+		(end 141.5 59.0992)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "69266148-4293-4be6-9752-69e89a08e382")
+	)
+	(gr_arc
+		(start 102.584 141.5)
+		(mid 101.169786 140.914214)
+		(end 100.584 139.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8d70736c-baa0-4f74-a455-ae65eb9e44d6")
+	)
+	(gr_arc
+		(start 100.584 59.0992)
+		(mid 101.169786 57.684986)
+		(end 102.584 57.0992)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "94090f78-22db-449d-8426-51dcdd265184")
+	)
 	(gr_circle
 		(center 135.66 119.96)
 		(end 137.26 119.96)
@@ -41666,19 +41719,39 @@
 		(layer "Edge.Cuts")
 		(uuid "ae99ea1a-91aa-4489-adf4-f620fb96a9e7")
 	)
-	(gr_rect
-		(start 100.584 57.0992)
-		(end 141.5 141.5)
+	(gr_line
+		(start 139.5 141.5)
+		(end 102.584 141.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "b9b6328b-663a-4b42-b968-0776a873161d")
+		(uuid "bec2b654-4c35-4b4a-b23c-f8f82e806191")
+	)
+	(gr_arc
+		(start 141.5 139.5)
+		(mid 140.914214 140.914214)
+		(end 139.5 141.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d14945fc-ce62-4b3a-9d3d-547068c90977")
+	)
+	(gr_line
+		(start 141.5 59.0992)
+		(end 141.5 139.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d5f7e3c2-cd49-42d7-9bd7-300565ff979f")
 	)
 	(gr_text "LCD"
-		(at 141.08 58.1 90)
+		(at 140.84 58.12 90)
 		(layer "B.SilkS")
 		(uuid "189c388c-75bc-4f9e-86da-914c79170eed")
 		(effects
