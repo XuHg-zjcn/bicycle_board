@@ -9491,7 +9491,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red"
 			(at 56.1975 109.1508 0)
 			(effects
 				(font
@@ -9552,24 +9552,24 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 54.61 115.57 180)
+		(at 54.61 115.57 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab3f42eb-bc61-425c-a771-6bc66cace739")
 		(property "Reference" "D5"
-			(at 56.1975 109.2665 0)
+			(at 56.1975 121.8735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 56.1975 111.6908 0)
+		(property "Value" "Blue"
+			(at 56.1975 119.4492 0)
 			(effects
 				(font
 					(size 1.27 1.27)
