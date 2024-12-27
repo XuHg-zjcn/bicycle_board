@@ -257,7 +257,7 @@
 		(at 0 0)
 		(size 0.3 1.3)
 		(property pad_prop_heatsink)
-		(layers "F.Cu" "F.Paste")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(zone_connect 2)
 		(uuid "063d2ab9-f571-4f8c-ad6c-ff5ad82c3abc")
